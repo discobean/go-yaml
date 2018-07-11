@@ -10,7 +10,7 @@ Useful if you just want to read/write setting files in your Go programs.
 ## Installation
 
 ```
-go get menteslibres.net/gosexy/yaml
+go get github.com/anuvu/yaml
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ go get menteslibres.net/gosexy/yaml
 After installing, use the following import path.
 
 ```go
-import "menteslibres.net/gosexy/yaml"
+import "github.com/anuvu/yaml"
 ```
 
 Here's an example that creates a YAML file and writes some values on it:
@@ -27,7 +27,7 @@ Here's an example that creates a YAML file and writes some values on it:
 package main
 
 import (
-	"menteslibres.net/gosexy/yaml"
+	"github.com/anuvu/yaml"
 )
 
 func main() {
@@ -114,7 +114,7 @@ fmt.Printf("%d\n", i)
 
 See the [online docs][1].
 
-[1]: http://godoc.org/menteslibres.net/gosexy/yaml
+[1]: http://godoc.org/github.com/anuvu/yaml
 [2]: http://launchpad.net/goyaml
 [3]: http://www.yaml.org
 [4]: https://menteslibres.net/gosexy/to
