@@ -25,9 +25,9 @@ package yaml
 
 import (
 	"fmt"
-	"gopkg.in/yaml.v1"
+	yamlv1 "gopkg.in/yaml.v1"
 	"log"
-	"github.com/anuvu/dig"
+	dig "github.com/discobean/go-dig"
 	"os"
 	"reflect"
 	"strings"
@@ -168,7 +168,7 @@ func (self *Yaml) Save() error {
 */
 func (self *Yaml) Write(filename string) error {
 
-	out, err := yaml.Marshal(self.values)
+	out, err := yamlv1.Marshal(self.values)
 
 	if err != nil {
 		return err
@@ -212,7 +212,7 @@ func (self *Yaml) Read(filename string) error {
 	buf := make([]byte, filesize)
 	fp.Read(buf)
 
-	err = yaml.Unmarshal(buf, &self.values)
+	err = yamlv1.Unmarshal(buf, &self.values)
 
 	if err != nil {
 		return err

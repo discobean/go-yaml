@@ -1,0 +1,12 @@
+github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/discobean/go-dig v0.0.0-20210821084833-9c6f720d95dd h1:G790aeTUIjY9uvLLZSm9ABkRZk1xnK/J8EYBZFNCgLA=
+github.com/discobean/go-dig v0.0.0-20210821084833-9c6f720d95dd/go.mod h1:xZ8f73b1zOArAdR4yj0oVdJo1nob6xtg4vToH5xE/dM=
+github.com/discobean/go-to v0.0.0-20210821064904-1e3c67a0160e h1:CDcc01Z0Ps/4WRoQ9ov1T+ZpvKveoPRVyFi7BhT9CyQ=
+github.com/discobean/go-to v0.0.0-20210821064904-1e3c67a0160e/go.mod h1:wpjtjwSn1ViIWlpmidc25tFsiG/j87UBfNMiut2fux4=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
+github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0 h1:POO/ycCATvegFmVuPpQzZFJ+pGZeX22Ufu6fibxDVjU=
+gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0/go.mod h1:WDnlLJ4WF5VGsH/HVa3CI79GS0ol3YnhVnKP89i0kNg=
+gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
