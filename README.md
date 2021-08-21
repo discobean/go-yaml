@@ -1,8 +1,11 @@
-# gosexy/yaml
+# discobean/go-yaml
 
 This package is a wrapper of [goyaml][2].
 
-`gosexy/yaml` provides friendly methods for loading, reading and writing to and
+It was originally known as gosexy/yaml, but modules were not working, so I went through
+and fixed what I could.
+
+`discobean/go-yaml` provides friendly methods for loading, reading and writing to and
 from [YAML][3] formatted files.
 
 Useful if you just want to read/write setting files in your Go programs.
@@ -10,7 +13,7 @@ Useful if you just want to read/write setting files in your Go programs.
 ## Installation
 
 ```
-go get github.com/anuvu/yaml
+go get github.com/discobean/go-yaml
 ```
 
 ## Usage
@@ -18,7 +21,7 @@ go get github.com/anuvu/yaml
 After installing, use the following import path.
 
 ```go
-import "github.com/anuvu/yaml"
+import yaml "github.com/discobean/go-yaml"
 ```
 
 Here's an example that creates a YAML file and writes some values on it:
@@ -27,7 +30,7 @@ Here's an example that creates a YAML file and writes some values on it:
 package main
 
 import (
-	"github.com/anuvu/yaml"
+	yaml "github.com/discobean/go-yaml"
 )
 
 func main() {
@@ -99,7 +102,7 @@ fmt.Printf("%d\n", i)
 // Prints: 1
 ```
 
-You can also use [gosexy/to][4] to convert from `interface{}` into a compatible
+You can also use [discobean/go-to][4] to convert from `interface{}` into a compatible
 type:
 
 ```go
@@ -114,7 +117,7 @@ fmt.Printf("%d\n", i)
 
 See the [online docs][1].
 
-[1]: http://godoc.org/github.com/anuvu/yaml
+[1]: http://godoc.org/github.com/discobean/go-yaml
 [2]: http://launchpad.net/goyaml
 [3]: http://www.yaml.org
-[4]: https://menteslibres.net/gosexy/to
+[4]: http://github.com/discobean/go-to
